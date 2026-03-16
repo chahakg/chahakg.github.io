@@ -1,0 +1,112 @@
+.circle_image {
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.experience-section {
+  margin-top: 80px;
+}
+
+/* left title section */
+
+.section-title {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.title-underline {
+  width: 40px;
+  height: 4px;
+  background-color: #ccc;
+  margin: 10px 0 20px 0;
+}
+
+.section-description {
+  color: #555;
+}
+
+/* cards */
+.card-image{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 15px;
+  border: 1px solid #ddd;
+}
+.experience-card {
+  background: white;
+  border: 2px solid #ddd;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.05);
+}
+
+.highlight-card {
+  border: 3px solid #888;
+  box-shadow: 10px 10px 0px #aaa;
+}
+
+.company {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.date-badge {
+  display: inline-block;
+  border: 1px solid #bbb;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
+.portfolio-button {
+  display: block;
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.jumbotron h1{
+  font-size: 64px;
+}
+.portfolio-button:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f7cce4;
+  font-family: 'Playfair Display', serif;
+  
+}
+h1 {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.lead {
+  color: #444;
+}
+.jumbotron {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  border-radius: 25px;
+  width: 70%;
+  margin: 60px auto;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.1);
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #D2FFC4;
+}
